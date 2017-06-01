@@ -89,7 +89,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YGy-DG-cbl" id="mVW-Gf-YFs">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="68.666666666666671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="68.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cMt-8O-NtY">
@@ -174,6 +174,7 @@
                         <outlet property="tableView" destination="PiY-zB-iO3" id="iDG-8K-1pM"/>
                         <outlet property="todayTempLabel" destination="V8v-ja-cY7" id="0Eq-v2-XQU"/>
                         <outlet property="weatherImage" destination="j05-ca-OqO" id="wzB-i4-fHW"/>
+                        <outlet property="weatherTypeState" destination="5LN-6z-RgV" id="frt-aA-0q6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
